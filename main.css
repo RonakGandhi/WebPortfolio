@@ -1,7 +1,7 @@
 
 /* common CSS*/
 #sidebar {
-  background: #b98c0edc;
+  background: #393437c7;
   color: #fff;
   z-index:2;
   top: 0;
@@ -40,15 +40,20 @@ text-decoration: underline;
 }
 
 
-.components a:hover::after {
-content: "\2192";
-padding-left:15px;
-
-}
-
 .components li {
 color:#fff;
-margin-bottom: 15px;
+margin-bottom: 30px;
+}
+
+.components li a {
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+ul a  {
+  display: inline-block;
 }
 
 #sidebar a {
@@ -86,6 +91,8 @@ color: #fff !important;
   text-decoration: none;
   margin-bottom: 20px;
   display: inline-block;
+  box-shadow: 8px 5px 8px 5px black;
+  font-weight: 700
 }
 
 .order-main .order {
@@ -124,6 +131,14 @@ color: #fff !important;
 
 .home-section-inner {
   margin-left: 25%;
+}
+
+.home-section-inner {
+  margin-left: 30%;
+}
+.home-section-inner h1, .home-section-inner h2 {
+  color: #1d1411;
+  text-shadow: 2px 2px #bda287;
 }
 
 svg {
